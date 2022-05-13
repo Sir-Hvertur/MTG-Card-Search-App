@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0800E9CA25F3B67100B9AA6E /* WholeCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0800E9C825F3B67100B9AA6E /* WholeCardCell.swift */; };
+		0800E9CB25F3B67100B9AA6E /* WholeCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0800E9C925F3B67100B9AA6E /* WholeCardCell.xib */; };
+		080A30F5260618960064CB15 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080A30F4260618960064CB15 /* DetailViewController.swift */; };
+		081E117525E7E43A008A627F /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081E117425E7E43A008A627F /* SearchModel.swift */; };
+		081E117825E7E445008A627F /* SearchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081E117725E7E445008A627F /* SearchData.swift */; };
+		081E117B25E7E463008A627F /* SearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081E117A25E7E463008A627F /* SearchManager.swift */; };
+		08215D7F25EA45B400092B80 /* CustomSearchTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08215D7E25EA45B400092B80 /* CustomSearchTextField.swift */; };
+		084EFF9225E529CB00E65BFC /* CardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084EFF9125E529CB00E65BFC /* CardManager.swift */; };
+		084EFF9525E52ED600E65BFC /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084EFF9425E52ED600E65BFC /* CardData.swift */; };
+		084EFF9825E530F600E65BFC /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084EFF9725E530F600E65BFC /* CardModel.swift */; };
+		0878E07625F22D9900CA24CE /* CollectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0878E07525F22D9900CA24CE /* CollectionTableViewController.swift */; };
+		0878E08125F25C1000CA24CE /* CardModelRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0878E08025F25C1000CA24CE /* CardModelRealm.swift */; };
+		089C183E2604DE0600918368 /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089C183D2604DE0600918368 /* SwipeTableViewController.swift */; };
+		08C0754C25DFC08600B03835 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C0754B25DFC08600B03835 /* AppDelegate.swift */; };
+		08C0754E25DFC08600B03835 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C0754D25DFC08600B03835 /* SceneDelegate.swift */; };
+		08C0755025DFC08600B03835 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C0754F25DFC08600B03835 /* CardViewController.swift */; };
+		08C0755325DFC08600B03835 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08C0755125DFC08600B03835 /* Main.storyboard */; };
+		08C0755525DFC08800B03835 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08C0755425DFC08800B03835 /* Assets.xcassets */; };
+		08C0755825DFC08800B03835 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08C0755625DFC08800B03835 /* LaunchScreen.storyboard */; };
+		EE9223CC16E92A0935DD8818 /* Pods_MTG_Card_Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB509FA03F0C1C386BC1ED5 /* Pods_MTG_Card_Search.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0800E9C825F3B67100B9AA6E /* WholeCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WholeCardCell.swift; sourceTree = "<group>"; };
+		0800E9C925F3B67100B9AA6E /* WholeCardCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WholeCardCell.xib; sourceTree = "<group>"; };
+		080A30F4260618960064CB15 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		081E117425E7E43A008A627F /* SearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
+		081E117725E7E445008A627F /* SearchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchData.swift; sourceTree = "<group>"; };
+		081E117A25E7E463008A627F /* SearchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchManager.swift; sourceTree = "<group>"; };
+		08215D7E25EA45B400092B80 /* CustomSearchTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchTextField.swift; sourceTree = "<group>"; };
+		084EFF9125E529CB00E65BFC /* CardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardManager.swift; sourceTree = "<group>"; };
+		084EFF9425E52ED600E65BFC /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
+		084EFF9725E530F600E65BFC /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		0878E07525F22D9900CA24CE /* CollectionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTableViewController.swift; sourceTree = "<group>"; };
+		0878E08025F25C1000CA24CE /* CardModelRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModelRealm.swift; sourceTree = "<group>"; };
+		089C183D2604DE0600918368 /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
+		08C0754825DFC08600B03835 /* MTG-Card-Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MTG-Card-Search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08C0754B25DFC08600B03835 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		08C0754D25DFC08600B03835 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		08C0754F25DFC08600B03835 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		08C0755225DFC08600B03835 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08C0755425DFC08800B03835 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08C0755725DFC08800B03835 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08C0755925DFC08800B03835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8425043896316610C6BA9CF4 /* Pods-MTG-Card-Search.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTG-Card-Search.release.xcconfig"; path = "Target Support Files/Pods-MTG-Card-Search/Pods-MTG-Card-Search.release.xcconfig"; sourceTree = "<group>"; };
+		AAB509FA03F0C1C386BC1ED5 /* Pods_MTG_Card_Search.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MTG_Card_Search.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3165F685EE0F53EADA17DE4 /* Pods-MTG-Card-Search.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTG-Card-Search.debug.xcconfig"; path = "Target Support Files/Pods-MTG-Card-Search/Pods-MTG-Card-Search.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08C0754525DFC08600B03835 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE9223CC16E92A0935DD8818 /* Pods_MTG_Card_Search.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08C0753F25DFC08600B03835 = {
+			isa = PBXGroup;
+			children = (
+				08C0754A25DFC08600B03835 /* MTG-Card-Search */,
+				08C0754925DFC08600B03835 /* Products */,
+				793A6B0AF8C3B0FCDE779251 /* Pods */,
+				751B9017E80C51B6C3F77074 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		08C0754925DFC08600B03835 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08C0754825DFC08600B03835 /* MTG-Card-Search.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08C0754A25DFC08600B03835 /* MTG-Card-Search */ = {
+			isa = PBXGroup;
+			children = (
+				08C0754D25DFC08600B03835 /* SceneDelegate.swift */,
+				08C0754B25DFC08600B03835 /* AppDelegate.swift */,
+				08C0756025DFC0F600B03835 /* Model */,
+				08C0756425DFC14B00B03835 /* View */,
+				08C0756525DFC15500B03835 /* Controller */,
+				08C0755425DFC08800B03835 /* Assets.xcassets */,
+				08C0755625DFC08800B03835 /* LaunchScreen.storyboard */,
+				08C0755925DFC08800B03835 /* Info.plist */,
+			);
+			path = "MTG-Card-Search";
+			sourceTree = "<group>";
+		};
+		08C0756025DFC0F600B03835 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				084EFF9125E529CB00E65BFC /* CardManager.swift */,
+				084EFF9425E52ED600E65BFC /* CardData.swift */,
+				084EFF9725E530F600E65BFC /* CardModel.swift */,
+				0878E08025F25C1000CA24CE /* CardModelRealm.swift */,
+				081E117425E7E43A008A627F /* SearchModel.swift */,
+				081E117725E7E445008A627F /* SearchData.swift */,
+				081E117A25E7E463008A627F /* SearchManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		08C0756425DFC14B00B03835 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				08C0755125DFC08600B03835 /* Main.storyboard */,
+				0800E9C825F3B67100B9AA6E /* WholeCardCell.swift */,
+				0800E9C925F3B67100B9AA6E /* WholeCardCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		08C0756525DFC15500B03835 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				08C0754F25DFC08600B03835 /* CardViewController.swift */,
+				080A30F4260618960064CB15 /* DetailViewController.swift */,
+				089C183D2604DE0600918368 /* SwipeTableViewController.swift */,
+				0878E07525F22D9900CA24CE /* CollectionTableViewController.swift */,
+				08215D7E25EA45B400092B80 /* CustomSearchTextField.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		751B9017E80C51B6C3F77074 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAB509FA03F0C1C386BC1ED5 /* Pods_MTG_Card_Search.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		793A6B0AF8C3B0FCDE779251 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3165F685EE0F53EADA17DE4 /* Pods-MTG-Card-Search.debug.xcconfig */,
+				8425043896316610C6BA9CF4 /* Pods-MTG-Card-Search.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08C0754725DFC08600B03835 /* MTG-Card-Search */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08C0755C25DFC08800B03835 /* Build configuration list for PBXNativeTarget "MTG-Card-Search" */;
+			buildPhases = (
+				FD02B8B5DEAFE8871B3974F5 /* [CP] Check Pods Manifest.lock */,
+				08C0754425DFC08600B03835 /* Sources */,
+				08C0754525DFC08600B03835 /* Frameworks */,
+				08C0754625DFC08600B03835 /* Resources */,
+				024E2596E56013FFBB2FE6D6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MTG-Card-Search";
+			productName = "MTG-Card-Search";
+			productReference = 08C0754825DFC08600B03835 /* MTG-Card-Search.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08C0754025DFC08600B03835 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					08C0754725DFC08600B03835 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 08C0754325DFC08600B03835 /* Build configuration list for PBXProject "MTG-Card-Search" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08C0753F25DFC08600B03835;
+			productRefGroup = 08C0754925DFC08600B03835 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08C0754725DFC08600B03835 /* MTG-Card-Search */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08C0754625DFC08600B03835 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08C0755825DFC08800B03835 /* LaunchScreen.storyboard in Resources */,
+				08C0755525DFC08800B03835 /* Assets.xcassets in Resources */,
+				08C0755325DFC08600B03835 /* Main.storyboard in Resources */,
+				0800E9CB25F3B67100B9AA6E /* WholeCardCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		024E2596E56013FFBB2FE6D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MTG-Card-Search/Pods-MTG-Card-Search-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MTG-Card-Search/Pods-MTG-Card-Search-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MTG-Card-Search/Pods-MTG-Card-Search-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD02B8B5DEAFE8871B3974F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MTG-Card-Search-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08C0754425DFC08600B03835 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0878E07625F22D9900CA24CE /* CollectionTableViewController.swift in Sources */,
+				084EFF9525E52ED600E65BFC /* CardData.swift in Sources */,
+				08C0755025DFC08600B03835 /* CardViewController.swift in Sources */,
+				08215D7F25EA45B400092B80 /* CustomSearchTextField.swift in Sources */,
+				084EFF9225E529CB00E65BFC /* CardManager.swift in Sources */,
+				081E117525E7E43A008A627F /* SearchModel.swift in Sources */,
+				08C0754C25DFC08600B03835 /* AppDelegate.swift in Sources */,
+				0878E08125F25C1000CA24CE /* CardModelRealm.swift in Sources */,
+				08C0754E25DFC08600B03835 /* SceneDelegate.swift in Sources */,
+				081E117B25E7E463008A627F /* SearchManager.swift in Sources */,
+				089C183E2604DE0600918368 /* SwipeTableViewController.swift in Sources */,
+				081E117825E7E445008A627F /* SearchData.swift in Sources */,
+				080A30F5260618960064CB15 /* DetailViewController.swift in Sources */,
+				084EFF9825E530F600E65BFC /* CardModel.swift in Sources */,
+				0800E9CA25F3B67100B9AA6E /* WholeCardCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		08C0755125DFC08600B03835 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08C0755225DFC08600B03835 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08C0755625DFC08800B03835 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08C0755725DFC08800B03835 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08C0755A25DFC08800B03835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		08C0755B25DFC08800B03835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08C0755D25DFC08800B03835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3165F685EE0F53EADA17DE4 /* Pods-MTG-Card-Search.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BSH6Z5624F;
+				INFOPLIST_FILE = "MTG-Card-Search/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nikolajhoeeg.MTG-Card-Search";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08C0755E25DFC08800B03835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8425043896316610C6BA9CF4 /* Pods-MTG-Card-Search.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BSH6Z5624F;
+				INFOPLIST_FILE = "MTG-Card-Search/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nikolajhoeeg.MTG-Card-Search";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08C0754325DFC08600B03835 /* Build configuration list for PBXProject "MTG-Card-Search" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08C0755A25DFC08800B03835 /* Debug */,
+				08C0755B25DFC08800B03835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08C0755C25DFC08800B03835 /* Build configuration list for PBXNativeTarget "MTG-Card-Search" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08C0755D25DFC08800B03835 /* Debug */,
+				08C0755E25DFC08800B03835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08C0754025DFC08600B03835 /* Project object */;
+}

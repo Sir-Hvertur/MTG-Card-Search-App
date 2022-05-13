@@ -1,0 +1,6 @@
+framework module Pods_MTG_Card_Search {
+  umbrella header "Pods-MTG-Card-Search-umbrella.h"
+
+  export *
+  module * { export * }
+}
