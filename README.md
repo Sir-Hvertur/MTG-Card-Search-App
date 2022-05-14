@@ -1,2 +1,2 @@
 # MTG-Card-Search-App
-#Remove all the pods and then run pod install.
+#After downloading the project remove all pod folders and then run pod install
