@@ -56,7 +56,7 @@ void RLMRealmCreateAccessors(RLMSchema *schema) {
         }
 
         static unsigned long long count = 0;
-        sprintf(start, "%llu %s", count++, objectSchema.className.UTF8String);
+        snprintf(start, bufferSize - (start - className), "%llu %s", count++, objectSchema.className.UTF8String);
         objectSchema.accessorClass = RLMManagedAccessorClassForObjectClass(objectSchema.objectClass, objectSchema, className);
     }
 }
